@@ -44,19 +44,19 @@ const AboutUs = () => {
       >
         <motion.p
           variants={FadeInUpAnimation}
-          className=" text-[#14A2F1] text-[16px] font-medium"
+          className=" text-[#14A2F1] 2xl:text-[20px] text-[16px] font-medium"
         >
           Who We Are
         </motion.p>
         <motion.h1
           variants={FadeInUpAnimation}
-          className=" text-[#282A3A] text-[40px] font-[700]"
+          className=" text-[#282A3A] 2xl:text-[52px] text-[40px] font-[700]"
         >
           About Us
         </motion.h1>
         <motion.p
           variants={FadeInUpAnimation}
-          className=" text-[#777986] md:text-[16px] text-[16px] font-[500]"
+          className=" text-[#777986] 2xl:text-[22px] md:text-[16px] text-[16px] font-[500]"
         >
           We're a team of experienced tech professionals, with 5+ years in the
           industry, who are committed to revolutionising web and app
