@@ -15,7 +15,7 @@ const RecentWork = () => {
 
   return (
     <div
-      className="mt-32 md:mx-24 mx-12"
+      className="mt-32 md:mx-24 mx-4"
     >
       <h1 className="text-[40px] font-bold text-center">Recent Work</h1>
 
