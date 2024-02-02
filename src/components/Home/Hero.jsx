@@ -19,7 +19,7 @@ const Hero = () => {
     },
   };
   return (
-    <div className=" sm:flex block justify-between lg:mx-24 md:mx-12 sm:mx-12 mx-4">
+    <div className=" sm:flex block justify-between pt-14 lg:mx-24 md:mx-12 sm:mx-12 mx-4">
       {/* left */}
       <motion.div
         initial="hidden"
