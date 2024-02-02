@@ -90,7 +90,7 @@ const Hero = () => {
       <motion.div
         initial={{
           opacity: 0,
-          x: 50,
+          x: 0,
         }}
         whileInView={{
           opacity:1,
