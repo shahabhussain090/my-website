@@ -58,7 +58,7 @@ const Hero = () => {
         </motion.div>
         <motion.div
           variants={FadeInUpAnimation}
-          className=" flex items-center lg:gap-20 gap-12  mt-12"
+          className=" flex items-center lg:gap-20 gap-12 mt-16 "
         >
           <div className="">
             <h1 className=" text-[#14A2F1] 2xl:text-[42px] lg:text-[32px] text-[22px] font-[700]">
@@ -89,7 +89,7 @@ const Hero = () => {
       {/* right */}
       <div
      
-        className=" w-[43%]"
+        className=" 2xl:w-[40%] w-[40%]"
       >
         <img src={home} alt="" className="" />
       </div>
