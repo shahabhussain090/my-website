@@ -20,11 +20,11 @@ const RecentWork = () => {
     >
       <h1 className="text-[40px] font-bold text-center">Recent Work</h1>
 
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 mt-12">
+      <div className="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 mt-12">
         {recentData.slice(0, element).map((item) => (
           <div
             key={item.title}
-            className="bg-[#FBFBFB] rounded-md relative "
+            className="bg-[#FBFBFB] rounded-md  "
           >
             <div className="overflow-hidden">
               <img
@@ -33,7 +33,7 @@ const RecentWork = () => {
                 alt=""
               />
             </div>
-            <div className="bg-[#F3F4F8] pb-24 px-6 flex flex-col gap-2 rounded-md">
+            <div className="bg-[#F3F4F8]  py-7 px-6 flex flex-col gap-2 rounded-md">
               <h1 className="text-[24px] font-semibold ">
                 {item.title}
                 <span className="text-[14px] font-medium">{item.desc1}</span>
@@ -41,7 +41,7 @@ const RecentWork = () => {
               <p className="text-[#777986] text-[14px] font-normal">
                 {item.desc}
               </p>
-              <div className=" absolute top-[390px] right-7 flex items-center gap-1">
+              <div className="flex items-center gap-1 mt-4">
                 <button className="text-[#14A2F1] text-[20px] font-medium">{item.btn}</button>
                 <img src={arrow} alt="" />
               </div>
