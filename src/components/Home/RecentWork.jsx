@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { recentData } from "../Data/data";
-import { Variants, motion } from "framer-motion";
 const RecentWork = () => {
 
   const [element, setElement] = useState(3);
