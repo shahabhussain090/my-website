@@ -36,7 +36,7 @@ const Hero = () => {
         <ScrollRestoration />
         <motion.h1
           variants={FadeInUpAnimation}
-          className=" text-[#282A3A] 2xl:text-[62px] lg:text-[52px] md:text-[42px] text-[29px] font-[700] md:leading-[4rem] 2xl:leading-[5rem]"
+          className=" text-[#282A3A] 2xl:text-[72px] lg:text-[52px] md:text-[42px] text-[29px] font-[700] md:leading-[4rem] 2xl:leading-[5rem]"
         >
           Transforming Visions into Digital Reality!
         </motion.h1>
@@ -99,7 +99,7 @@ const Hero = () => {
             duration: 1
           }
         }}
-        className=" md:w-[45%]"
+        className=""
       >
         <img src={home} alt="" />
       </motion.div>

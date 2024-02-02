@@ -17,7 +17,7 @@ const AboutUs = () => {
     },
   };
   return (
-    <div className=" md:flex block items-center justify-between lg:mx-24 md:mx-12 sm:mx-12 mx-4 mt-12 2xl:mt-40">
+    <div className=" md:flex block items-center justify-between lg:mx-24 md:mx-12 sm:mx-12 mx-4 mt-12 2xl:mt-48">
       {/* left */}
       <motion.div
         initial={{
@@ -56,7 +56,7 @@ const AboutUs = () => {
         </motion.h1>
         <motion.p
           variants={FadeInUpAnimation}
-          className=" text-[#777986] 2xl:text-[22px] md:text-[16px] text-[16px] font-[500] mt-8"
+          className=" text-[#777986] 2xl:text-[22px] md:text-[16px] text-[16px] font-[500] mt-4"
         >
           We're a team of experienced tech professionals, with 5+ years in the
           industry, who are committed to revolutionising web and app
@@ -66,7 +66,7 @@ const AboutUs = () => {
           turning client visions into reality through precise coding and design.
         </motion.p>
         <motion.div variants={FadeInUpAnimation}>
-          <button className=" bg-[#14A2F1] py-3 px-6 text-white hover:bg-[#4889ac] mt-8">
+          <button className=" bg-[#14A2F1] py-3 px-6 text-white hover:bg-[#4889ac] mt-14">
             Learn More About Us!
           </button>
         </motion.div>

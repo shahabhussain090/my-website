@@ -29,7 +29,7 @@ const Services = () => {
         <div className="text-white mt-20 flex flex-col gap-2">
           <p className="text-[#75CEFF] text-[16px] font-medium">What We Do</p>
           <h1 className="text-[40px] font-bold">Our Services</h1>
-          <p className="text-[#D2D4DA] text-[24px] font-semibold">
+          <p className="text-[#D2D4DA] text-[24px] font-medium">
             Elevate your digital presence with our comprehensive suite of
             software services.
           </p>

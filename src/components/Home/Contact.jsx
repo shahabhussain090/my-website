@@ -6,7 +6,7 @@ const Contact = () => {
       {/* left */}
       <div className=" md:w-[45%]">
         <h1 className=" text-[40px] font-bold">
-          Have something to ask? get a free quote now!
+          Have Something To Ask? Get A Free Quote Now!
         </h1>
         <p className=" text-[#777986] text-[20px] font-medium mt-7">
           Reach out to us and let's start a conversation. We're here to answer
