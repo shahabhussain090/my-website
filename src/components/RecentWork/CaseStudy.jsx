@@ -1,6 +1,6 @@
 import React from "react";
 import { recent } from "../Data/data";
-
+import arrow from '../../assets/svg/Arrow right.svg'
 const CaseStudy = () => {
   return (
     <div>
@@ -21,9 +21,9 @@ const CaseStudy = () => {
               : item.bgColor === "img6"
               ? "bg-[#F4F8FF]"
               : ""
-          } md:flex block items-center rounded-[20px] justify-between md:mx-20 mx-4  mt-24`}
+          } md:flex block items-center rounded-[20px] justify-between  md:mx-24 2xl:mx32  mx-4  mt-24`}
         >
-          <div className="flex flex-col gap-3 px-5 2xl:py-7 py-5">
+          <div className="flex flex-col gap-3 px-5  ">
             <img className="w-[444px]" src={item.logo} alt="" />
             <p className="text-[12px] 2xl:text-[22px] font-[400] text-[#7B848B]">
               {item.desc1}
@@ -31,14 +31,13 @@ const CaseStudy = () => {
             <p className="text-[#353A3E] 2xl:text-[27px] text-[14px] font-normal">
               {item.desc}
             </p>
-            <div>
-              <button className="border-[2px] border-[#14A2F1] py-3 px-6 text-[#14A2F1] text-[14px] font-bold">
-                {item.btn}
-              </button>
+            <div className=" flex items-center gap-2 text-[20px] font-medium mt-5">
+              <button>{item.btn}</button>
+              <img src={arrow} alt="" />
             </div>
           </div>
           <img
-            className="md:w-[444px] rounded-[20px] object-contain"
+            className="md:w-[444px] 2xl:w-[555px] rounded-[20px] mt-20 "
             src={item.imgUrl}
             alt=""
           />
