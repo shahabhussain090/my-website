@@ -1,7 +1,7 @@
 import React from "react";
 import { serviceData } from "../Data/data";
 import { Variants, motion } from "framer-motion";
-
+import arrow from '../../assets/svg/Arrow-white.svg'
 const Services = () => {
   const FadeInUpAnimation: Variants = {
     hidden: {
@@ -19,7 +19,7 @@ const Services = () => {
   };
 
   return (
-    <div className="back 2xl:mt-32 mt-24 pb-24">
+    <div className="back 2xl:mt-40 mt-24 pb-24">
       <motion.div
         initial="hidden"
         whileInView="show"
@@ -34,7 +34,7 @@ const Services = () => {
             software services.
           </p>
           <div>
-            <button className="bg-white py-2 px-4 text-black">
+            <button className="bg-white py-2 px-4 text-black mt-4">
               Talk To Us Now!
             </button>
           </div>
@@ -45,7 +45,7 @@ const Services = () => {
           <motion.div
             variants={FadeInUpAnimation}
             key={item.title}
-            className="relative border-[2px] border-[#fff] py-6 px-3 rounded-md text-white flex flex-col gap-4 mt-20"
+            className="relative border-[2px] border-[#767676] py-6 px-3 rounded-md text-white flex flex-col gap-4 mt-20"
           >
             <img
               className="w-[62px] absolute -top-8 bg-[#120b2e] rounded-md"
@@ -56,8 +56,9 @@ const Services = () => {
             <p className="text-[#D2D4DA] text-[13px] font-normal">
               {item.desc}
             </p>
-            <div>
+            <div className=" flex items-center gap-2">
               <button>{item.btn}</button>
+              <img src={arrow} alt="" />
             </div>
           </motion.div>
         ))}

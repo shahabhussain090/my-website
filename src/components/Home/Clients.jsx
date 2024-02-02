@@ -26,116 +26,140 @@ const Clients = () => {
   };
   return (
     <div className=" back1 mt-32 overflow-x-hidden pb-24">
-      <motion.div className="md:mx-24 mx-4" initial='hidden' whileInView='show' variants={FadeInUpAnimation} >
-      <h1 className=" text-[40px] text-center text-white font-bold pt-12">
-        What Our Clients Say
-      </h1>
+      <motion.div
+        className="md:mx-24 mx-4"
+        initial="hidden"
+        whileInView="show"
+        variants={FadeInUpAnimation}
+      >
+        <h1 className=" text-[40px] text-center text-white font-bold pt-12">
+          What Our Clients Say
+        </h1>
 
-      <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+        <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
         <SwiperSlide>
-          <div className=" md:flex block items-center justify-between  mt-12 ">
-            <img className=" 2xl:w-[755px] w-[333px]" src={main} alt="" />
-            <div className=" text-white">
-              <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
-                <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
-                  “Amet risus eget at hendrerit erat nibh. Semper nec ornare
-                  pretium neque ut tortor tincidunt hendrerit accumsan. Pulvinar
-                  vel sit sed massa morbi. Ac dolor orci facilisis parturient.
-                  In ac et in congue.”
-                </p>
-                <ReactStars
-                  count={5}
-                  onChange={ratingChanged}
-                  size={24}
-                  color2={"#ffd700"}
-                />
-                <p className=" 2xl:text-[27px] md:text-[20px] text-[12px] font-medium">Name Surname</p>
-                <p className=" text-[#F3F4F8] 2xl:text-[18px] md:text-[14px] text-[10px] font-normal">
-                  Position, Company name
-                </p>
+            <div className=" md:flex block items-center justify-between  mt-12 ">
+              <img className=" 2xl:w-[1455px] w-[333px]" src={main} alt="" />
+              <div className=" text-white">
+                <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
+                  <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
+                    “Amet risus eget at hendrerit erat nibh. Semper nec ornare
+                    pretium neque ut tortor tincidunt hendrerit accumsan.
+                    Pulvinar vel sit sed massa morbi. Ac dolor orci facilisis
+                    parturient. In ac et in congue.”
+                  </p>
+                  <p className=" mt-4">
+                    {" "}
+                    <ReactStars
+                      count={5}
+                      onChange={ratingChanged}
+                      size={24}
+                      color2={"#ffd700"}
+                    />
+                  </p>
+                  <p className=" 2xl:text-[27px] md:text-[20px] text-[12px] font-medium mt-6">
+                    Name Surname
+                  </p>
+                  <p className=" text-[#F3F4F8] 2xl:text-[18px] md:text-[14px] text-[10px] font-normal">
+                    Position, Company name
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className=" md:flex block items-center justify-between  mt-12 ">
-            <img className=" 2xl:w-[755px] w-[333px]" src={main} alt="" />
-            <div className=" text-white">
-              <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
-                <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
-                  “Amet risus eget at hendrerit erat nibh. Semper nec ornare
-                  pretium neque ut tortor tincidunt hendrerit accumsan. Pulvinar
-                  vel sit sed massa morbi. Ac dolor orci facilisis parturient.
-                  In ac et in congue.”
-                </p>
-                <ReactStars
-                  count={5}
-                  onChange={ratingChanged}
-                  size={24}
-                  color2={"#ffd700"}
-                />
-                <p className=" 2xl:text-[27px] md:text-[20px] text-[12px] font-medium">Name Surname</p>
-                <p className=" text-[#F3F4F8] 2xl:text-[18px] md:text-[14px] text-[10px] font-normal">
-                  Position, Company name
-                </p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className=" md:flex block items-center justify-between  mt-12 ">
+              <img className=" 2xl:w-[1455px] w-[333px]" src={main} alt="" />
+              <div className=" text-white">
+                <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
+                  <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
+                    “Amet risus eget at hendrerit erat nibh. Semper nec ornare
+                    pretium neque ut tortor tincidunt hendrerit accumsan.
+                    Pulvinar vel sit sed massa morbi. Ac dolor orci facilisis
+                    parturient. In ac et in congue.”
+                  </p>
+                  <p className=" mt-4">
+                    {" "}
+                    <ReactStars
+                      count={5}
+                      onChange={ratingChanged}
+                      size={24}
+                      color2={"#ffd700"}
+                    />
+                  </p>
+                  <p className=" 2xl:text-[27px] md:text-[20px] text-[12px] font-medium mt-6">
+                    Name Surname
+                  </p>
+                  <p className=" text-[#F3F4F8] 2xl:text-[18px] md:text-[14px] text-[10px] font-normal">
+                    Position, Company name
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className=" md:flex block items-center justify-between  mt-12 ">
-            <img className=" 2xl:w-[755px] w-[333px]" src={main} alt="" />
-            <div className=" text-white">
-              <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
-                <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
-                  “Amet risus eget at hendrerit erat nibh. Semper nec ornare
-                  pretium neque ut tortor tincidunt hendrerit accumsan. Pulvinar
-                  vel sit sed massa morbi. Ac dolor orci facilisis parturient.
-                  In ac et in congue.”
-                </p>
-                <ReactStars
-                  count={5}
-                  onChange={ratingChanged}
-                  size={24}
-                  color2={"#ffd700"}
-                />
-                <p className=" 2xl:text-[27px] md:text-[20px] text-[12px] font-medium">Name Surname</p>
-                <p className=" text-[#F3F4F8] 2xl:text-[18px] md:text-[14px] text-[10px] font-normal">
-                  Position, Company name
-                </p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className=" md:flex block items-center justify-between  mt-12 ">
+              <img className=" 2xl:w-[1455px] w-[333px]" src={main} alt="" />
+              <div className=" text-white">
+                <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
+                  <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
+                    “Amet risus eget at hendrerit erat nibh. Semper nec ornare
+                    pretium neque ut tortor tincidunt hendrerit accumsan.
+                    Pulvinar vel sit sed massa morbi. Ac dolor orci facilisis
+                    parturient. In ac et in congue.”
+                  </p>
+                  <p className=" mt-4">
+                    {" "}
+                    <ReactStars
+                      count={5}
+                      onChange={ratingChanged}
+                      size={24}
+                      color2={"#ffd700"}
+                    />
+                  </p>
+                  <p className=" 2xl:text-[27px] md:text-[20px] text-[12px] font-medium mt-6">
+                    Name Surname
+                  </p>
+                  <p className=" text-[#F3F4F8] 2xl:text-[18px] md:text-[14px] text-[10px] font-normal">
+                    Position, Company name
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className=" md:flex block items-center justify-between  mt-12 ">
-            <img className=" 2xl:w-[755px] w-[333px]" src={main} alt="" />
-            <div className=" text-white">
-              <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
-                <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
-                  “Amet risus eget at hendrerit erat nibh. Semper nec ornare
-                  pretium neque ut tortor tincidunt hendrerit accumsan. Pulvinar
-                  vel sit sed massa morbi. Ac dolor orci facilisis parturient.
-                  In ac et in congue.”
-                </p>
-                <ReactStars
-                  count={5}
-                  onChange={ratingChanged}
-                  size={24}
-                  color2={"#ffd700"}
-                />
-                <p className=" 2xl:text-[27px] md:text-[20px] text-[12px] font-medium">Name Surname</p>
-                <p className=" text-[#F3F4F8] 2xl:text-[18px] md:text-[14px] text-[10px] font-normal">
-                  Position, Company name
-                </p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className=" md:flex block items-center justify-between  mt-12 ">
+              <img className=" 2xl:w-[1455px] w-[333px]" src={main} alt="" />
+              <div className=" text-white">
+                <div className="bac 2xl:py-24 py-12 md:px-12 px-4">
+                  <p className=" md:text-[24px] 2xl:text-[32px] text-[16px] font-semibold">
+                    “Amet risus eget at hendrerit erat nibh. Semper nec ornare
+                    pretium neque ut tortor tincidunt hendrerit accumsan.
+                    Pulvinar vel sit sed massa morbi. Ac dolor orci facilisis
+                    parturient. In ac et in congue.”
+                  </p>
+                  <p className=" mt-4">
+                    {" "}
+                    <ReactStars
+                      count={5}
+                      onChange={ratingChanged}
+                      size={24}
+                      color2={"#ffd700"}
+                    />
+                  </p>
+                  <p className=" 2xl:text-[27px] md:text-[20px] text-[12px] font-medium mt-6">
+                    Name Surname
+                  </p>
+                  <p className=" text-[#F3F4F8] 2xl:text-[18px] md:text-[14px] text-[10px] font-normal">
+                    Position, Company name
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </SwiperSlide>
-      </Swiper>
-
+          </SwiperSlide>
+        </Swiper>
       </motion.div>
-         </div>
+    </div>
   );
 };
 

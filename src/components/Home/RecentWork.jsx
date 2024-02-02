@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { recentData } from "../Data/data";
+import arrow from '../../assets/svg/Arrow.svg'
 const RecentWork = () => {
 
   const [element, setElement] = useState(3);
@@ -23,7 +24,7 @@ const RecentWork = () => {
         {recentData.slice(0, element).map((item) => (
           <div
             key={item.title}
-            className="bg-[#FBFBFB] rounded-md "
+            className="bg-[#FBFBFB] rounded-md relative "
           >
             <div className="overflow-hidden">
               <img
@@ -32,7 +33,7 @@ const RecentWork = () => {
                 alt=""
               />
             </div>
-            <div className="bg-[#F3F4F8] py-6 px-6 flex flex-col gap-2 rounded-md">
+            <div className="bg-[#F3F4F8] pb-24 px-6 flex flex-col gap-2 rounded-md">
               <h1 className="text-[24px] font-semibold ">
                 {item.title}
                 <span className="text-[14px] font-medium">{item.desc1}</span>
@@ -40,8 +41,9 @@ const RecentWork = () => {
               <p className="text-[#777986] text-[14px] font-normal">
                 {item.desc}
               </p>
-              <div>
-                <button className="text-[#14A2F1]">{item.btn}</button>
+              <div className=" absolute top-[390px] right-7 flex items-center gap-1">
+                <button className="text-[#14A2F1] text-[20px] font-medium">{item.btn}</button>
+                <img src={arrow} alt="" />
               </div>
             </div>
           </div>
