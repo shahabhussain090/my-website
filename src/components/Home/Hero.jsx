@@ -19,7 +19,7 @@ const Hero = () => {
     },
   };
   return (
-    <div className=" sm:flex block justify-between 2x:pt-14 lg:mx-24 md:mx-12 sm:mx-12 mx-4">
+    <div className=" sm:flex w-[100%] block justify-between 2x:pt-14 lg:mx-24 md:mx-12 sm:mx-12 mx-4">
       {/* left */}
       <motion.div
         initial="hidden"
@@ -99,9 +99,9 @@ const Hero = () => {
             duration: 1
           }
         }}
-        className=""
+        className=" w-[50%]"
       >
-        <img src={home} alt="" />
+        <img src={home} alt="" className="" />
       </motion.div>
     </div>
   );

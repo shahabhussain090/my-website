@@ -34,7 +34,7 @@ const Services = () => {
             software services.
           </p>
           <div>
-            <button className="bg-white py-2 px-4 text-black mt-4">
+            <button className="bg-white py-2 px-4 text-black">
               Talk To Us Now!
             </button>
           </div>
