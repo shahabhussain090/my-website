@@ -17,7 +17,7 @@ const AboutUs = () => {
     },
   };
   return (
-    <div className=" md:flex block items-center justify-between lg:mx-24 md:mx-12 sm:mx-12 mx-4 mt-12">
+    <div className=" md:flex block items-center justify-between lg:mx-24 md:mx-12 sm:mx-12 mx-4 mt-12 2xl:mt-32">
       {/* left */}
       <motion.div
         initial={{

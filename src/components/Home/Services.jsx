@@ -19,7 +19,7 @@ const Services = () => {
   };
 
   return (
-    <div className="back mt-24 pb-24">
+    <div className="back 2xl:mt-32 mt-24 pb-24">
       <motion.div
         initial="hidden"
         whileInView="show"
