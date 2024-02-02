@@ -23,12 +23,12 @@ const CaseStudy = () => {
               : ""
           } md:flex block items-center rounded-[20px] justify-between md:mx-20 mx-4  mt-24`}
         >
-          <div className="flex flex-col gap-3 px-5">
+          <div className="flex flex-col gap-3 px-5 2xl:py-8">
             <img className="w-[444px]" src={item.logo} alt="" />
-            <p className="text-[12px] font-[400] text-[#7B848B]">
+            <p className="text-[12px] 2xl:text-[22px] font-[400] text-[#7B848B]">
               {item.desc1}
             </p>
-            <p className="text-[#353A3E] text-[14px] font-normal">
+            <p className="text-[#353A3E] 2xl:text-[27px] text-[14px] font-normal">
               {item.desc}
             </p>
             <div>
