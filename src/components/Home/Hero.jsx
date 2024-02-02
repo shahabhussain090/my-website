@@ -19,7 +19,7 @@ const Hero = () => {
     },
   };
   return (
-    <div className=" sm:flex w-[100%] block justify-between 2x:pt-14 lg:mx-24 md:mx-12 sm:mx-12 mx-4">
+    <div className=" sm:flex  block justify-between 2x:pt-14 lg:mx-24 md:mx-12 sm:mx-12 mx-4">
       {/* left */}
       <motion.div
         initial="hidden"
@@ -87,22 +87,12 @@ const Hero = () => {
         </motion.div>
       </motion.div>
       {/* right */}
-      <motion.div
-        initial={{
-          opacity: 0,
-          x: 0,
-        }}
-        whileInView={{
-          opacity:1,
-          x:0,
-          transition:{
-            duration: 1
-          }
-        }}
-        className=" w-[50%]"
+      <div
+     
+        className=" w-[43%]"
       >
         <img src={home} alt="" className="" />
-      </motion.div>
+      </div>
     </div>
   );
 };
