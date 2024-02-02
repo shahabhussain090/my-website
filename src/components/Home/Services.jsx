@@ -48,7 +48,7 @@ const Services = () => {
             className="relative border-[2px] border-[#767676] py-6 px-3 rounded-md text-white flex flex-col gap-4 mt-20"
           >
             <img
-              className="w-[62px] absolute -top-8 bg-[#120b2e] rounded-md"
+              className="w-[62px] absolute -top-8 bg-[#120b2eac] rounded-md ml-4"
               src={item.imgUrl}
               alt=""
             />
