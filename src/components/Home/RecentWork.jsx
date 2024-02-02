@@ -24,7 +24,7 @@ const RecentWork = () => {
         {recentData.slice(0, element).map((item) => (
           <div
             key={item.title}
-            className="bg-[#FBFBFB] rounded-md  "
+            className="bg-[#FBFBFB] rounded-md border-[#F3F4F8] border-[2px]  "
           >
             <div className="overflow-hidden">
               <img
