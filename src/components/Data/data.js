@@ -170,29 +170,6 @@ export const recentData = [
     desc: "Social Networking - Chat - Jobs Seeking - Health",
     btn: "View Case Study",
   },
-
-  {
-    imgUer: img9,
-    title: "Local Cargivers ",
-    desc1: "(Mobile & Web App)",
-    desc: "Social Networking - Chat - Jobs Seeking - Health",
-    btn: "View Case Study",
-  },
-
-  {
-    imgUer: img10,
-    title: "Mvuala",
-    desc: "Social - Chat - Entertainment - Video Streaming",
-    btn: "View Case Study",
-  },
-
-  {
-    imgUer: img11,
-    title: "Local Cargivers ",
-    desc1: "(Mobile & Web App)",
-    desc: "Social Networking - Chat - Jobs Seeking - Health",
-    btn: "View Case Study",
-  },
 ];
 
 export const industriesData = [

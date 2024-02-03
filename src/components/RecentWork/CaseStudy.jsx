@@ -21,7 +21,7 @@ const CaseStudy = () => {
               : item.bgColor === "img6"
               ? "bg-[#F4F8FF]"
               : ""
-          } md:flex block items-center rounded-[20px] justify-between  md:mx-24 2xl:mx32  mx-4  mt-24`}
+          } md:flex block items-center rounded-[20px] justify-between  md:mx-24 2xl:mx-32 pt-12  mx-4  mt-24`}
         >
           <div className="flex flex-col gap-3 px-5  ">
             <img className="w-[444px]" src={item.logo} alt="" />

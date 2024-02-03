@@ -1,18 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { recentData } from "../Data/data";
 import arrow from '../../assets/svg/Arrow.svg'
+import { Link } from "react-router-dom";
 const RecentWork = () => {
-
-  const [element, setElement] = useState(3);
-  const [disableButton, setDisableButton] = useState(false);
-
-  const loadMore = () => {
-    const nextElement = element + 3;
-    if (nextElement >= recentData.length) {
-      setDisableButton(true);
-    }
-    setElement(nextElement);
-  };
 
   return (
     <div
@@ -20,8 +10,8 @@ const RecentWork = () => {
     >
       <h1 className="text-[40px] font-bold text-center">Recent Work</h1>
 
-      <div className="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 mt-12">
-        {recentData.slice(0, element).map((item) => (
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 mt-12">
+        {recentData.map((item) => (
           <div
             key={item.title}
             className="bg-[#FBFBFB] rounded-md border-[#F3F4F8] border-[2px]  "
@@ -51,13 +41,11 @@ const RecentWork = () => {
       </div>
 
       <div className="flex items-center justify-center ">
-        <button
-          onClick={() => loadMore()}
+        <Link to='/recent'
           className="bg-[#14A2F1] text-white mt-14 py-3 px-7 hover:bg-[#4889ac]"
-          disabled={disableButton}
         >
           View More Case Studies
-        </button>
+        </Link>
       </div>
     </div>
   );
