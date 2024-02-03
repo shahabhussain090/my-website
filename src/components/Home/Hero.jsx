@@ -87,10 +87,7 @@ const Hero = () => {
         </motion.div>
       </motion.div>
       {/* right */}
-      <div
-     
-        className=" 2xl:w-[40%] md:w-[40%] w-[100%]"
-      >
+      <div className=" 2xl:w-[40%] md:w-[40%] w-[100%]">
         <img src={home} alt="" className="" />
       </div>
     </div>
